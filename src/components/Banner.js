@@ -73,7 +73,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <a href="https://drive.google.com/drive/folders/1Bj238VyOtAokR6RQXBxnYBjMK8yu09Hn?usp=sharing" >
                 <span className="tagline">Get My Resume</span>
+                </a>
                 <h1>{`Hi! I'm Keshav`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <button onClick={scrollToContact}>Let’s Connect <ArrowRightCircle size={25} /></button>
