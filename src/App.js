@@ -2,15 +2,23 @@ import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ScrollProvider } from './components/ScrollContext';
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-    </div>
+    <ScrollProvider>
+      <div className="App">
+        <NavBar />
+        <Banner />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </ScrollProvider>
   );
 }
 
