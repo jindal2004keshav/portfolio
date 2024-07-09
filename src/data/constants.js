@@ -208,7 +208,7 @@ export const projects = [
     date: "May 2024 - June 2024",
     description:
       "I developed a sophisticated financial analysis application enabling users to select stocks listed on the National Stock Exchange (NSE), define specific date ranges and time frames, and visualize detected support and resistance levels in stock prices. The project integrates robust functionality to identify and plot these levels on stock price charts, enhancing analytical precision for over 100 stocks. Leveraging the Yahoo Finance API for real-time and accurate historical stock data retrieva.",
-    image: "",
+    image: "https://github.com/jindal2004keshav/Support-Resistance/raw/main/Screenshot%202024-07-09%20172517.png",
     tags: ["Python", "Matplotlib", "Numpy", "Pandas", "Flask"],
     category: "machine learning",
     github: "https://github.com/jindal2004keshav/Support-Resistance",
